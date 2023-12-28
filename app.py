@@ -11,8 +11,6 @@ from langchain.llms import HuggingFaceHub
 from langchain.embeddings import OpenAIEmbeddings
 from langchain_community.chat_models import ChatOpenAI
 
-import os
-from dotenv import load_dotenv
 load_dotenv(override=True)
 
 def get_pdf_text(pdf_docs):
